@@ -8,7 +8,7 @@ from fastapi import APIRouter, File, UploadFile
 
 from app.agents.resume_processor import JobDescription, Resume, ResumeProcessorAgent
 from app.models.resume_score import ResumeScoreConsolidated
-from app.firebase.upload_resume import upload_to_storage_if_not_exists
+# from app.firebase.upload_resume import upload_to_storage_if_not_exists
 
 from app.utils.hash_utils import hash_file_content
 
